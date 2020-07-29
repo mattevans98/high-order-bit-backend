@@ -10,6 +10,7 @@
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register src/App.ts",
     "start:watch": "nodemon",
+    "start:once": "ts-node src/App.ts",
     "build": "tsc"
   },
   "dependencies": {
